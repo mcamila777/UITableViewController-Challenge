@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		4140E3E51C5ABD43004C3577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140E3E41C5ABD43004C3577 /* main.m */; };
 		4140E3E81C5ABD43004C3577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140E3E71C5ABD43004C3577 /* AppDelegate.m */; };
-		4140E3EB1C5ABD43004C3577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140E3EA1C5ABD43004C3577 /* ViewController.m */; };
 		4140E3EE1C5ABD43004C3577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4140E3EC1C5ABD43004C3577 /* Main.storyboard */; };
 		4140E3F01C5ABD43004C3577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4140E3EF1C5ABD43004C3577 /* Assets.xcassets */; };
 		4140E3F31C5ABD43004C3577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4140E3F11C5ABD43004C3577 /* LaunchScreen.storyboard */; };
+		4140E3FC1C5AC026004C3577 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140E3FB1C5AC026004C3577 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		4140E3E41C5ABD43004C3577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4140E3E61C5ABD43004C3577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4140E3E71C5ABD43004C3577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4140E3E91C5ABD43004C3577 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4140E3EA1C5ABD43004C3577 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4140E3ED1C5ABD43004C3577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4140E3EF1C5ABD43004C3577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4140E3F21C5ABD43004C3577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4140E3F41C5ABD43004C3577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4140E3FA1C5AC026004C3577 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		4140E3FB1C5AC026004C3577 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		4140E3E21C5ABD42004C3577 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				4140E3FA1C5AC026004C3577 /* TableViewController.h */,
+				4140E3FB1C5AC026004C3577 /* TableViewController.m */,
 				4140E3E61C5ABD43004C3577 /* AppDelegate.h */,
 				4140E3E71C5ABD43004C3577 /* AppDelegate.m */,
-				4140E3E91C5ABD43004C3577 /* ViewController.h */,
-				4140E3EA1C5ABD43004C3577 /* ViewController.m */,
 				4140E3EC1C5ABD43004C3577 /* Main.storyboard */,
 				4140E3EF1C5ABD43004C3577 /* Assets.xcassets */,
 				4140E3F11C5ABD43004C3577 /* LaunchScreen.storyboard */,
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4140E3EB1C5ABD43004C3577 /* ViewController.m in Sources */,
 				4140E3E81C5ABD43004C3577 /* AppDelegate.m in Sources */,
+				4140E3FC1C5AC026004C3577 /* TableViewController.m in Sources */,
 				4140E3E51C5ABD43004C3577 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
